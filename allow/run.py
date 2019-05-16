@@ -18,7 +18,7 @@ def allow(*websites):
        Running without andy websites will list the currently allowed sites
        Running with "init" as the the only argument will pull init using the current vetted domain list.
     """
-    if websites == ["init"]:
+    if websites == ("init", ):
         add_to_allowed_websites = SAFE_LIST
     else:
         add_to_allowed_websites = set()
