@@ -41,7 +41,7 @@ except (IOError, ImportError, OSError, RuntimeError):
    readme = ''
 
 setup(name='allow',
-      version='0.0.2',
+      version='0.0.3',
       description="Personal Website Safe and Block List Management Script",
       long_description=readme,
       author='Timothy Crosley',
